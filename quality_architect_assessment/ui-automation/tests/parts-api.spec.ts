@@ -36,6 +36,7 @@ test.describe('Parts API', () => {
 
     const detail = await request.get(`${apiBaseUrl}/parts/${id}/`);
     expect(detail.ok()).toBeTruthy();
-    expect((await detail.json()).IPN ?? (await detail.json()).ipn).toBe(ipn);
+    const detailBody = await detail.json();
+    expect(detailBody.IPN ?? detailBody.ipn).toBe(ipn);
   });
 });
