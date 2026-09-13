@@ -1,0 +1,1 @@
+{"name":"qa-playwright","private":true,"scripts":{"test":"playwright test","test:ui":"playwright test tests/parts.spec.ts","test:api":"playwright test tests/parts-api.spec.ts","report":"playwright show-report"},"devDependencies":{"@playwright/test":"^1.49.0"}}
