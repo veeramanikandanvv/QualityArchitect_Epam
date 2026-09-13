@@ -1,0 +1,10 @@
+project: QualityArchitect_Epam
+target_system: InvenTree Parts
+memory_policy:
+  evidence_required_for_execution_claims: true
+  unverified_items_must_be_labeled: true
+  prefer_artifacts_over_prompt_history: true
+known_constraints:
+  - Live InvenTree URL and credentials may not be available
+  - UI selectors must be validated against the deployed version
+  - API behavior must be confirmed against the target schema
