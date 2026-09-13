@@ -1,5 +1,5 @@
 # Quality Architect Assessment Deliverables
 
-The assessment artifacts are being consolidated under `deepagents/assessment/` so the DeepAgents project is the single source of truth.
+This legacy folder is being consolidated into the `deepagents/` project. Do not add new work here.
 
-See the root `deepagents/README.md` for setup and execution instructions.
+The canonical assessment implementation, artifacts, automation, prompts, memory, and orchestration should live under `deepagents/`.
